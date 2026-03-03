@@ -124,8 +124,8 @@ class STACDownloader:
         items = search.item_collection()
         return items
 
+    @staticmethod
     def _get_file_output_path(
-        self,
         item: pyStacItem,
         asset_name: str,
         resolution: float,
